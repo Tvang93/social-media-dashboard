@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import dashboardComponent from './components/dashboardComponent'
+import DashboardComponent from './components/DashboardComponent'
 
 function App() {
 
   return (
     <>
-      <dashboardComponent />
+      <DashboardComponent />
     </>
   )
 }
