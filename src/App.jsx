@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import DashboardComponent from './components/DashboardComponent'
+import './index.css'
+import DashboardComponent from './components/dashboardComponent'
 
 function App() {
 
