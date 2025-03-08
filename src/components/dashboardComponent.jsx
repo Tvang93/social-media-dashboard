@@ -3,6 +3,8 @@ import "../index.css";
 import FollowerComponent from "./FollowerComponent";
 import OverviewComponent from "./OverviewComponent";
 import { FetchData } from "../services/DataServices";
+import dataValue from "/data.json"
+
 
 const DashboardComponent = () => {
   const [totalFollowers, setTotalFollowers] = useState("23,004");
@@ -14,7 +16,7 @@ const DashboardComponent = () => {
     const GetData = async () => {
       const data = await FetchData();
       console.log(data);
-      setAppData(data);
+      setAppData(dataValue);
     };
     GetData();
   }, []);
