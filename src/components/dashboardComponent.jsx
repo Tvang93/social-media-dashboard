@@ -13,12 +13,13 @@ const DashboardComponent = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    const GetData = async () => {
-      const data = await FetchData();
-      console.log(data);
-      setAppData(dataValue);
-    };
-    GetData();
+    // const GetData = async () => {
+    //   const data = await FetchData();
+    //   console.log(data);
+      
+    // };
+    // GetData();
+    setAppData(dataValue);
   }, []);
 
   useEffect(() => {
