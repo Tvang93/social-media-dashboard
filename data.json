@@ -1,0 +1,88 @@
+{
+  "SocialMedia": [
+    {
+      "Name": "Facebook",
+      "Color": "hsl(208, 92%, 53%)",
+      "Image": "./images/icon-facebook.svg",
+      "Username": "@nathanf",
+      "FollowerCount": 1987,
+      "FollowerLabel": "followers",
+      "FollowerChange": 12,
+      "OverviewDetails": [
+        {
+          "Label": "Page Views",
+          "Count": 87,
+          "Change": 3
+        },
+        {
+          "Label": "Likes",
+          "Count": 52,
+          "Change": -2
+        }
+      ]
+    },
+    {
+      "Name": "Twitter",
+      "Color": "hsl(203, 89%, 53%)",
+      "Image": "./images/icon-twitter.svg",
+      "Username": "@nathanf",
+      "FollowerCount": 1044,
+      "FollowerLabel": "followers",
+      "FollowerChange": 99,
+      "OverviewDetails": [
+        {
+          "Label": "Retweets",
+          "Count": 117,
+          "Change": 303
+        },
+        {
+          "Label": "Likes",
+          "Count": 507,
+          "Change": 553
+        }
+      ]
+    },
+    {
+      "Name": "Instagram",
+      "Color": "hsl(37, 97%, 70%)",
+      "Image": "./images/icon-instagram.svg",
+      "Username": "@realnathanf",
+      "FollowerCount": "11k",
+      "FollowerLabel": "followers",
+      "FollowerChange": 1099,
+      "OverviewDetails": [
+        {
+          "Label": "Profile Views",
+          "Count": "52k",
+          "Change": 1375
+        },
+        {
+          "Label": "Likes",
+          "Count": 5462,
+          "Change": 2257
+        }
+      ]
+    },
+    {
+      "Name": "Youtube",
+      "Color": "hsl(348, 97%, 39%)",
+      "Image": "./images/icon-youtube.svg",
+      "Username": "Nathan F.",
+      "FollowerCount": 8239,
+      "FollowerLabel": "subscribers",
+      "FollowerChange": -144,
+      "OverviewDetails": [
+        {
+          "Label": "Total Views",
+          "Count": 1407,
+          "Change": -12
+        },
+        {
+          "Label": "Likes",
+          "Count": 107,
+          "Change": -19
+        }
+      ]
+    }
+  ]
+}

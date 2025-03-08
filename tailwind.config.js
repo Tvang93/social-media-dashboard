@@ -1,16 +1,21 @@
+const flowbite = require("flowbite-react/tailwind");
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./*.html", "./src/**/*.{html,js,jsx}"],
+  content: ["./*.html", "./src/**/*.{html,js,jsx}", flowbite.content()],
   theme: {
     extend: {
       colors: {
         LimeGreen: "hsl(163, 72%, 41%)",
         BrightRed: "hsl(356, 69%, 56%)",
-        Facebook: "hsl(208, 92%, 53%)",
-        Twitter: "hsl(203, 89%, 53%)",
+        Facebook1: "hsl(208, 92%, 53%)",
+        Facebook2: "hsl(208, 92%, 53%)",
+        Twitter1: "hsl(203, 89%, 53%)",
+        Twitter2: "hsl(203, 89%, 53%)",
         Instagram1: "hsl(37, 97%, 70%)",
         Instagram2: "hsl(329, 70%, 58%)",
-        YouTube: "hsl(348, 97%, 39%)",
+        Youtube1: "hsl(348, 97%, 39%)",
+        Youtube2: "hsl(348, 97%, 39%)",
 
         DarkModeToggle1: 'hsl(210, 78%, 56%)',
         DarkModeToggle2: 'hsl(146, 68%, 55%)',
@@ -31,5 +36,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [flowbite.plugin()],
 };
